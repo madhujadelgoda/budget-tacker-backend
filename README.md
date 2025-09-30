@@ -29,3 +29,47 @@ Follow these steps to run the backend locally:
 ```bash
 git clone <repo-url>
 cd budget-tracker-backend
+
+```
+
+### **2. Install dependencies**
+
+```bash
+npm install
+
+```
+
+### **3. Create a .env file**
+
+Create a .env file in the root folder and add the following variables:
+
+MONGO_URI=here_add_mongodb_connection_string
+JWT_SECRET=here_add_jwt_secret_key
+PORT=5000
+
+### **4. Start the server**
+For development with hot reload (using nodemon):
+
+```bash
+npm run dev
+
+```
+For production:
+
+```bash
+node server.js
+
+```
+Headers for protected routes:
+
+Authorization: Bearer <token>
+
+## Technologies Used
+
+**Node.js**
+**Express.js**
+**MongoDB** & **Mongoose**
+**JWT** (JSON Web Token)
+**bcryptjs** (password hashing)
+**dotenv** (environment variables)
+**Nodemon** (development)
