@@ -60,9 +60,6 @@ For production:
 node server.js
 
 ```
-Headers for protected routes:
-
-Authorization: Bearer <token>
 
 ---
 
