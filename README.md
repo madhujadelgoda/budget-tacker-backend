@@ -43,8 +43,8 @@ npm install
 
 Create a .env file in the root folder and add the following variables:
 
-MONGO_URI=here_add_mongodb_connection_string
-JWT_SECRET=here_add_jwt_secret_key
+MONGO_URI=here_add_mongodb_connection_string <br>
+JWT_SECRET=here_add_jwt_secret_key <br>
 PORT=5000
 
 ### **4. Start the server**
@@ -64,12 +64,14 @@ Headers for protected routes:
 
 Authorization: Bearer <token>
 
+---
+
 ## Technologies Used
 
-**Node.js**
-**Express.js**
-**MongoDB** & **Mongoose**
-**JWT** (JSON Web Token)
-**bcryptjs** (password hashing)
-**dotenv** (environment variables)
-**Nodemon** (development)
+- **Node.js**
+- **Express.js**
+- **MongoDB** & **Mongoose**
+- **JWT** (JSON Web Token)
+- **bcryptjs** (password hashing)
+- **dotenv** (environment variables)
+- **Nodemon** (development)
